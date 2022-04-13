@@ -27,6 +27,7 @@ const getRandomQuote = array => array[Math.floor(Math.random() * array.length)];
 
 
 //button to display selected quote
+
 button.addEventListener('click', () => {
     let oldAuthor = currentAuthor.innerText
     let oldQuote = currentQuote.innerText
