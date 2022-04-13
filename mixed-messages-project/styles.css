@@ -34,16 +34,30 @@ color: white;
 text-decoration: underline;
 text-align: center;
 }
-
+.quoteMachine{
+  background-color: aliceblue;
+  border: solid 10px dodgerblue;
+}
 .quoteMachine p{
-  font-family: 'Hind Siliguri', sans-serif;
+font-size: 4em;
+color: green;
+margin: auto;
+font-family: 'Hind Siliguri', sans-serif;
 font-family: 'Lato', sans-serif;
 font-family: 'Oswald', sans-serif;
 font-family: 'Oxygen', sans-serif;
 font-family: 'Roboto Mono', monospace;
-font-size: 1.5rem;
-color: green;
-margin: auto;
+font-family: 'Spirax', cursive;
+font-weight: bolder;
+text-align: center;
+}
+
+.quoteMachine p span{
+  color: red;
+  font-size: 2em;
+}
+quoteMachine p .author{
+  align-self: flex-end;
 }
 .btnClass{
   display: flex;
