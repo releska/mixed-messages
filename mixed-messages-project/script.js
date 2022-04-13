@@ -14,12 +14,17 @@ const quotes = [
     quote: 'Marie Curie'
     }
 ]
-let currentAuthor = document.querySelector('.author-paragraph')
-let currentQuote = document.querySelector('.quote-paragraph')
-let button = document.getElementById('button')
+
+const tweet = document.querySelector('.twitter-share-button');
+
+
+let currentAuthor = document.querySelector('.author-paragraph');
+let currentQuote = document.querySelector('.quote-paragraph');
+let button = document.getElementById('button');
 
 //funstion to get random quote
 const getRandomQuote = array => array[Math.floor(Math.random() * array.length)];
+
 
 //button to display selected quote
 button.addEventListener('click', () => {
@@ -33,5 +38,8 @@ button.addEventListener('click', () => {
     } else
     currentAuthor.innerText = selectedQuote.author
     currentQuote.innerText = selectedQuote.quote
+    curauth = currentAuthor.innerHTML
+    curquote = currentQuote.innerHTML
+    tweet.href = `https://twitter.com/intent/tweet?text=${curauth}-${curquote}`
 })
 
