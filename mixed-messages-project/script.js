@@ -25,8 +25,7 @@ const quotes = [
     quote: 'Heroism is when I defend myself from another, gallantry is when I defend another from myself.',
     author: 'Marko Miljanov'
     },
-    
-
+    {
     author: 'Oprah Winfrey',
     quote: '“You define your own life. Don’t let other people write your script.”'
     },
