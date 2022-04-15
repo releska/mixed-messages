@@ -52,6 +52,9 @@ h1 {
 .button-container {
   text-align: center;
   margin: 30px;
+  /* margin: auto; */
+  display: flex;
+  justify-content: center;
 }
 button {
   color: rgb(84, 132, 188);
@@ -74,6 +77,11 @@ button:hover {
   transform: scale(1.05);
 }
 
+img {
+  width: 5%;
+  height: 5%;
+}
+
 footer {
   display: block;
   margin-top: 5rem;
@@ -82,5 +90,5 @@ footer {
 footer p {
   text-align: center;
   font-size: 19px;
-  font-family: 'Merriweather-Bold', sans-serif;
+  font-family: "Merriweather-Bold", sans-serif;
 }
