@@ -26,6 +26,15 @@ const quotes = [
     author: 'Marko Miljanov'
     },
     
+
+    author: 'Oprah Winfrey',
+    quote: '“You define your own life. Don’t let other people write your script.”'
+    },
+    {
+    author: 'Marie Curie',
+    quote: '“Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less.”',
+    }
+
 ]
 
 const tweet = document.querySelector('.twitter-share-button');
