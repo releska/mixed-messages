@@ -1,5 +1,5 @@
 body {
-  font-family: "Merriweather", sans-serif;
+  font-family: "Libre Baskerville", serif;
   margin: 0;
   background-color: rgb(226, 236, 252);
 }
@@ -11,7 +11,7 @@ a {
 
 h1 {
   text-align: center;
-  font-family: "Merriweather", sans-serif;
+  font-family: "Libre Baskerville", serif;
   font-size: 60px;
   color: rgb(83, 132, 188);
   display: block;
@@ -26,18 +26,18 @@ h1 {
 }
 
 .text-container {
+  font-family: 'Libre Baskerville Regular 400 Italic', serif;
   text-align: center;
   display: block;
   height: 350px;
   width: 600px;
   margin: 0 auto;
-  border-radius: 10px;
-  background-color: beige;
+  background-color: rgb(183, 203, 234);
   border-radius: 20%;
 }
 
 .quote-paragraph {
-  font-family: "Merriweather", sans-serif;
+  font-family: "Libre Baskerville", serif;
   font-size: 2.5rem;
   margin-top: 0;
   margin-bottom: 0.5rem;
@@ -92,5 +92,5 @@ footer {
 footer p {
   text-align: center;
   font-size: 19px;
-  font-family: "Merriweather-Bold", sans-serif;
+  font-family: "Libre Baskerville Bold 700", serif;
 }
