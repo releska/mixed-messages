@@ -1,17 +1,17 @@
 body {
-  font-family: "Merriweather", sans-serif;
+  font-family: "Libre Baskerville", serif;
   margin: 0;
   background-color: rgb(226, 236, 252);
 }
 
 a {
   text-decoration: none;
-  color: rgb(84, 132, 188);
+  
 }
 
 h1 {
   text-align: center;
-  font-family: "Merriweather", sans-serif;
+  font-family: "Libre Baskerville", serif;
   font-size: 60px;
   color: rgb(83, 132, 188);
   display: block;
@@ -26,16 +26,18 @@ h1 {
 }
 
 .text-container {
+  font-family: 'Libre Baskerville Regular 400 Italic', serif;
   text-align: center;
   display: block;
   height: 350px;
   width: 600px;
   margin: 0 auto;
-  border-radius: 10px;
+  background-color: rgb(183, 203, 234);
+  border-radius: 20%;
 }
 
 .quote-paragraph {
-  font-family: "Merriweather", sans-serif;
+  font-family: "Libre Baskerville", serif;
   font-size: 2.5rem;
   margin-top: 0;
   margin-bottom: 0.5rem;
@@ -52,17 +54,17 @@ h1 {
 .button-container {
   text-align: center;
   margin: 30px;
+  /* margin: auto; */
+  display: flex;
+  justify-content: center;
 }
 button {
-  color: rgb(84, 132, 188);
   text-decoration: none;
   text-transform: uppercase;
   display: inline-block;
   padding: 10px;
-  border: 2px solid rgb(224, 224, 224);
   font-size: 18px;
   font-weight: 600;
-  transition: background-color 0.5s ease-out;
   cursor: pointer;
   border-radius: 10px;
 }
@@ -74,6 +76,7 @@ button:hover {
   transform: scale(1.05);
 }
 
+
 footer {
   display: block;
   margin-top: 5rem;
@@ -82,5 +85,5 @@ footer {
 footer p {
   text-align: center;
   font-size: 19px;
-  font-family: 'Merriweather-Bold', sans-serif;
+  font-family: "Libre Baskerville Bold 700", serif;
 }
