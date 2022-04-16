@@ -6,13 +6,34 @@ const quotes = [
     quote: '"Success is not final, failure is not fatal: it is the courage to continue that counts."'      
     },
     {
-    author: '“You define your own life. Don’t let other people write your script.”',
-    quote:'Oprah Winfrey'
+    quote: '“You define your own life. Don’t let other people write your script.”',
+    author:'Oprah Winfrey'
     },
     {
-    author: '“Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less.”',
-    quote: 'Marie Curie'
+    quote: '“Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less.”',
+    author: 'Marie Curie'
+    },
+    {
+        quote: 'I am like a clean wall, you are a picture and a frame. I am an empty silence, you are the most beautiful music I know.',
+        author: 'Miladin Sobic'
+    },
+    {
+    quote: 'The crowd has no judgment.',
+    author: 'Sula Radov'
+    },
+    {
+    quote: 'Heroism is when I defend myself from another, gallantry is when I defend another from myself.',
+    author: 'Marko Miljanov'
+    },
+    {
+    author: 'Oprah Winfrey',
+    quote: '“You define your own life. Don’t let other people write your script.”'
+    },
+    {
+    author: 'Marie Curie',
+    quote: '“Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less.”',
     }
+
 ]
 
 const tweet = document.querySelector('.twitter-share-button');
