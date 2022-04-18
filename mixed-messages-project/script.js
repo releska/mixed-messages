@@ -2,11 +2,12 @@
 //test format for quotes & other variables
 const quotes = [
     {
-    author: 'Winston Churchill',
-    quote: '"Success is not final, failure is not fatal: it is the courage to continue that counts."'      
+    author: '-Winston Churchill',
+    quote: '“Success is not final, failure is not fatal: it is the courage to continue that counts”'      
     },
     {
     quote: '“You define your own life. Don’t let other people write your script.”',
+
     author:'Oprah Winfrey'
     },
     {
@@ -28,10 +29,33 @@ const quotes = [
     {
     author: 'Oprah Winfrey',
     quote: '“You define your own life. Don’t let other people write your script.”'
+
+    author:'-Oprah Winfrey'
+
     },
     {
-    author: 'Marie Curie',
-    quote: '“Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less.”',
+    quote: '“Out of the mountain of despair, a stone of hope”',
+    author: '-Martin Luther King Jr.'
+    },
+    {
+        quote: '“I am like a clean wall, you are a picture and a frame. I am an empty silence, you are the most beautiful music I know”',
+        author: '-Miladin Šobić'
+    },
+    {
+    quote: '“The crowd has no judgment”',
+    author: '-Sula Radov'
+    },
+    {
+    quote: '“Heroism is when I defend myself from another, gallantry is when I defend another from myself”',
+    author: '-Marko Miljanov'
+    },
+    {
+    author: '-Petar II Petrović Njegoš',
+    quote: '“This world is a tyrant to a tyrant, let alone a kind soul”'
+    },
+    {
+    author: '-Marie Curie',
+    quote: '“Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less”',
     }
 
 ]
