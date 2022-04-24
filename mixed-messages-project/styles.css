@@ -6,7 +6,7 @@ body {
 
 a {
   text-decoration: none;
-  color: rgb(84, 132, 188);
+  
 }
 
 h1 {
@@ -32,6 +32,8 @@ h1 {
   height: 350px;
   width: 600px;
   margin: 0 auto;
+  background-color: rgb(183, 203, 234);
+  border-radius: 20%;
 
   border-radius: 10px;
   background-color: beige;
@@ -68,15 +70,12 @@ h1 {
   justify-content: center;
 }
 button {
-  color: rgb(84, 132, 188);
   text-decoration: none;
   text-transform: uppercase;
   display: inline-block;
   padding: 10px;
-  border: 2px solid rgb(224, 224, 224);
   font-size: 18px;
   font-weight: 600;
-  transition: background-color 0.5s ease-out;
   cursor: pointer;
   border-radius: 10px;
 }
@@ -88,6 +87,7 @@ button:hover {
   transform: scale(1.05);
 }
 
+=======
 img {
   width: 5%;
   height: 5%;

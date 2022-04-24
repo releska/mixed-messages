@@ -1,9 +1,27 @@
-
 //test format for quotes & other variables
 const quotes = [
     {
     author: '-Winston Churchill',
     quote: '“Success is not final, failure is not fatal: it is the courage to continue that counts”'      
+    },
+    {
+    quote: '“You define your own life. Don’t let other people write your script.”',
+    author:'-Oprah Winfrey'
+    },
+    {
+    quote: '“Out of the mountain of despair, a stone of hope”',
+    author: '-Martin Luther King Jr.'
+    },
+    {
+        quote: '“I am like a clean wall, you are a picture and a frame. I am an empty silence, you are the most beautiful music I know”',
+        author: '-Miladin Šobić'
+    },
+    {
+    quote: '“The crowd has no judgment”',
+    author: '-Sula Radov'
+    },
+    {
+=======
     },
     {
     quote: '“You define your own life. Don’t let other people write your script.”',
@@ -85,6 +103,5 @@ button.addEventListener('click', () => {
     currentQuote.innerText = selectedQuote.quote
     curauth = currentAuthor.innerHTML
     curquote = currentQuote.innerHTML
-    tweet.href = `https://twitter.com/intent/tweet?text=${curauth}-${curquote}`
+    tweet.href = https://twitter.com/intent/tweet?text=${curauth}-${curquote}
 })
-
