@@ -69,12 +69,7 @@ h1 {
   display: flex;
   justify-content: center;
 }
-
-#button {
-  color: rgb(84, 132, 188);
-
 button {
-
   text-decoration: none;
   text-transform: uppercase;
   display: inline-block;
@@ -85,14 +80,14 @@ button {
   border-radius: 10px;
 }
 
-#button:hover {
+button:hover {
   color: white;
   background-color: rgb(84, 132, 188);
   border: 2px solid rgb(255, 255, 255);
   transform: scale(1.05);
 }
 
-
+=======
 img {
   width: 5%;
   height: 5%;
