@@ -28,8 +28,7 @@ const quotes = [
     },
     {
     author: 'Oprah Winfrey',
-    quote: '“You define your own life. Don’t let other people write your script.”'
-
+    quote: '“You define your own life. Don’t let other people write your script.”
     author:'-Oprah Winfrey'
 
     },
