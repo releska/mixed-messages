@@ -21,6 +21,48 @@ const quotes = [
     author: '-Sula Radov'
     },
     {
+=======
+    },
+    {
+    quote: '“You define your own life. Don’t let other people write your script.”',
+
+    author:'Oprah Winfrey'
+    },
+    {
+    quote: '“Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less.”',
+    author: 'Marie Curie'
+    },
+    {
+        quote: 'I am like a clean wall, you are a picture and a frame. I am an empty silence, you are the most beautiful music I know.',
+        author: 'Miladin Sobic'
+    },
+    {
+    quote: 'The crowd has no judgment.',
+    author: 'Sula Radov'
+    },
+    {
+    quote: 'Heroism is when I defend myself from another, gallantry is when I defend another from myself.',
+    author: 'Marko Miljanov'
+    },
+    {
+    author: 'Oprah Winfrey',
+    quote: '“You define your own life. Don’t let other people write your script.”
+    author:'-Oprah Winfrey'
+
+    },
+    {
+    quote: '“Out of the mountain of despair, a stone of hope”',
+    author: '-Martin Luther King Jr.'
+    },
+    {
+        quote: '“I am like a clean wall, you are a picture and a frame. I am an empty silence, you are the most beautiful music I know”',
+        author: '-Miladin Šobić'
+    },
+    {
+    quote: '“The crowd has no judgment”',
+    author: '-Sula Radov'
+    },
+    {
     quote: '“Heroism is when I defend myself from another, gallantry is when I defend another from myself”',
     author: '-Marko Miljanov'
     },
@@ -47,6 +89,7 @@ const getRandomQuote = array => array[Math.floor(Math.random() * array.length)];
 
 
 //button to display selected quote
+
 button.addEventListener('click', () => {
     let oldAuthor = currentAuthor.innerText
     let oldQuote = currentQuote.innerText
