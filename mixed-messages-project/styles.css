@@ -1,105 +1,101 @@
 body {
-  font-family: "Libre Baskerville", serif;
-  margin: 0;
-  background-color: rgb(226, 236, 252);
+    font-family: "Libre Baskerville", serif;
+    margin: 0;
+    background-color: rgb(226, 236, 252);
 }
 
 a {
-  text-decoration: none;
-  
+    text-decoration: none;
 }
 
 h1 {
-  text-align: center;
-  font-family: "Libre Baskerville", serif;
-  font-size: 60px;
-  color: rgb(83, 132, 188);
-  display: block;
-  margin: 0;
-  padding: 10px;
+    text-align: center;
+    font-family: "Libre Baskerville", serif;
+    font-size: 60px;
+    color: rgb(83, 132, 188);
+    display: block;
+    margin: 0;
+    padding: 10px;
 }
 
 #container {
-  height: 350px;
-  text-align: center;
-  padding: 25px 70px 25px;
+    height: 350px;
+    text-align: center;
+    padding: 25px 70px 25px;
 }
 
 .text-container {
-  font-family: 'Libre Baskerville Regular 400 Italic', serif;
-  text-align: center;
-  display: block;
-  height: 350px;
-  width: 600px;
-  margin: 0 auto;
-  background-color: rgb(183, 203, 234);
-  border-radius: 20%;
-
-  border-radius: 10px;
-  background-color: beige;
-  border-radius: 20%;
-  border-color: black;
-  border-style:solid;
-  border-width: 5px;
-
-  background-color: rgb(183, 203, 234);
-  border-radius: 20%;
-
+    font-family: 'Libre Baskerville Regular 400 Italic', serif;
+    text-align: center;
+    display: block;
+    height: 350px;
+    width: 600px;
+    margin: 0 auto;
+    background-color: rgb(183, 203, 234);
+    border-radius: 20%;
+    border-radius: 10px;
+    background-color: beige;
+    border-radius: 20%;
+    border-color: black;
+    border-style: solid;
+    border-width: 5px;
+    background-color: rgb(183, 203, 234);
+    border-radius: 20%;
 }
 
 .quote-paragraph {
-  font-family: "Libre Baskerville", serif;
-  font-size: 2.5rem;
-  margin-top: 0;
-  margin-bottom: 0.5rem;
-  color: rgb(58, 55, 55);
+    font-family: "Libre Baskerville", serif;
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    color: rgb(58, 55, 55);
 }
 
 .author-paragraph {
-  text-align: right;
-  font-size: 1.25rem;
-  margin-top: 0.5rem;
-  color: rgb(40, 35, 35);
+    text-align: right;
+    font-size: 1.25rem;
+    margin-top: 0.5rem;
+    color: rgb(40, 35, 35);
 }
 
 .button-container {
-  text-align: center;
-  margin: 30px;
-  /* margin: auto; */
-  display: flex;
-  justify-content: center;
+    text-align: center;
+    margin: 30px;
+    /* margin: auto; */
+    display: flex;
+    justify-content: center;
 }
+
 button {
-  text-decoration: none;
-  text-transform: uppercase;
-  display: inline-block;
-  padding: 10px;
-  font-size: 18px;
-  font-weight: 600;
-  cursor: pointer;
-  border-radius: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 10px;
 }
 
 button:hover {
-  color: white;
-  background-color: rgb(84, 132, 188);
-  border: 2px solid rgb(255, 255, 255);
-  transform: scale(1.05);
+    color: white;
+    background-color: rgb(84, 132, 188);
+    border: 2px solid rgb(255, 255, 255);
+    transform: scale(1.05);
 }
 
-=======
 img {
-  width: 5%;
-  height: 5%;
+    width: 5%;
+    height: 5%;
 }
 
 footer {
-  display: block;
-  margin-top: 5rem;
+    display: block;
+    margin-top: 5rem;
 }
 
 footer p {
-  text-align: center;
-  font-size: 19px;
-  font-family: "Libre Baskerville Bold 700", serif;
+    text-align: center;
+    font-size: 19px;
+    font-family: "Libre Baskerville Bold 700", serif;
 }
