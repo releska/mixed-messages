@@ -67,7 +67,7 @@ h1 {
   display: flex;
   justify-content: center;
 }
-button {
+#button {
   color: rgb(84, 132, 188);
   text-decoration: none;
   text-transform: uppercase;
@@ -81,7 +81,7 @@ button {
   border-radius: 10px;
 }
 
-button:hover {
+#button:hover {
   color: white;
   background-color: rgb(84, 132, 188);
   border: 2px solid rgb(255, 255, 255);

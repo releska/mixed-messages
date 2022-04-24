@@ -6,7 +6,7 @@ const quotes = [
     quote: '“Success is not final, failure is not fatal: it is the courage to continue that counts”'      
     },
     {
-    quote: '“You define your own life. Don’t let other people write your script.”',
+    quote: '“You define your own life. Dont let other people write your script.”',
 
     author:'Oprah Winfrey'
     },
@@ -28,8 +28,7 @@ const quotes = [
     },
     {
     author: 'Oprah Winfrey',
-    quote: '“You define your own life. Don’t let other people write your script.”
-    author:'-Oprah Winfrey'
+    quote: '“You define your own life. Don’t let other people write your script.”'
 
     },
     {
